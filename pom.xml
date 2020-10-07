@@ -91,12 +91,7 @@
 				<artifactId>gdx-backend-ios</artifactId>
 				<version>1.2.0</version>
 			</dependency>
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>1.18.12</version>
-				<scope>provided</scope>
-			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -143,12 +138,6 @@
 			<id>html</id>
 			<modules>
 				<module>html</module>
-			</modules>
-		</profile>
-		<profile>
-			<id>ios</id>
-			<modules>
-				<module>ios</module>
 			</modules>
 		</profile>
 	</profiles>
